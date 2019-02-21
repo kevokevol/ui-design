@@ -1,0 +1,352 @@
+.row {
+    margin: 0;
+}
+
+.status {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 46%;
+    width: 8%;
+    height: 30px;
+    background: #F7EAC9;
+    border-bottom-left-radius: 3px; 
+    border-bottom-right-radius: 3px;
+    border: solid #D0D0D0 1px;
+    border-top: 0;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+#navbar {
+    height: 60px;
+    background: #F1F1F1;
+    display: flex;
+    align-items: center;
+}
+#google-logo {
+    height: 100%;
+    text-align: center;
+}
+#google-search {
+}
+#google-search input[type=text] {
+    width: 80%;
+    height: 30px;
+    margin-right: -5px;
+    border: solid #D0D0D0 1px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#google-search input[type=submit] {
+    height: 30px;
+    background-color: #4C8CF2;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 60px;
+}
+
+#name {
+    float: right;
+    line-height: 30px;
+    color: #707070;
+}
+
+#google-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+#google-icons img {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#menu-bar {
+    height: 50px;
+    background: white;
+    border-bottom: solid #F1F1F1 1px;
+    display: flex;
+    align-items: center;
+}
+#menu-middle {
+    display: flex;
+    justify-content: space-between;
+}
+#menu-buttons {
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+}
+
+#menu-buttons .btn-primary {
+    background: #F1F1F1;
+    border-color: #D0D0D0;
+    color: #707070;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 75px;
+}
+
+#menu-buttons .btn-primary:hover {
+    background: white;
+}
+#menu-dropdown {
+    color: #D0584C;
+    padding-left: 3%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#menu-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-nav-buttons {
+    display: flex;
+}
+
+#menu-nav-buttons #left-button .btn-primary {
+    background: #F1F1F1;
+    border-color: #D0D0D0;
+    color: #707070;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#menu-nav-buttons #right-button .btn-primary {
+    background: #F1F1F1;
+    border-color: #D0D0D0;
+    color: #707070;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: -1px;
+}
+
+#menu-settings-button .btn-primary {
+    background: #F1F1F1;
+    border-color: #D0D0D0;
+    color: #707070;
+    margin-right: 30px;
+    border-radius: 3px;
+}
+
+#menu-nav-buttons #left-button .btn-primary:hover {
+    background: white;
+}
+
+#menu-nav-buttons #right-button .btn-primary:hover {
+    background: white;
+}
+
+#menu-settings-button .btn-primary:hover {
+    background: white;
+}
+
+#menu-page {
+    margin-top: 6px;
+}
+#content-nav .btn-primary {
+    background: #D0584C;
+    border-color: #D0D0D0;
+    color: white;
+    width: 70%;
+    margin: 10px 30px;
+    border-radius: 3px;
+    border-width: 0;
+    text-transform: uppercase;
+}
+#content-nav .btn-primary:hover {
+    background: #C0483C;
+}
+
+#content-nav-list {
+    margin-left: -15px;
+}
+
+.active-nav-button {
+    border-left: solid 3px #D0584C;
+    padding-left: 35px;
+}
+
+.inactive-nav-button {
+    border-left: solid 3px transparent;
+    padding-left: 35px;
+}
+
+.nav-button  {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    background: #D0D0D0;
+}
+
+.nav-tabs li{
+    width: 25%;
+}
+
+#main-content {
+    margin-top: 10px;
+}
+
+.nav-tabs li a{
+    color: black;
+    border-radius: 0;
+    border-top: solid 2px transparent;
+    background: #F1F1F1;
+    border-bottom: solid 1px #D0D0D0;
+}
+
+.nav-tabs li.active a{
+    color: black;
+    border-top: solid 2px black;
+}
+
+.nav-tabs li a:hover{
+    color: black;
+    border-radius: 0;
+    border-top: solid 2px black;
+}
+
+.nav-tabs li.active a:hover{
+    color: black;
+    border-top: solid 2px black;
+}
+
+#mailbox-elements{
+    height: 78vh;
+    overflow: scroll;
+}
+
+.mailbox-element{
+    height: 40px;
+    border-bottom: solid 1px #D0D0D0;
+    display: flex;
+    align-items: center;
+    border-left: solid 2px transparent;
+    margin: 0 0;
+}
+.mailbox-element:hover{
+    cursor: pointer;
+    border-left: solid 2px #4C8CF2;
+}
+.unread{
+    background: white;
+}
+.read {
+    background: #F1F1F1;
+}
+.element-sender{
+    
+}
+.element-content{
+    white-space: nowrap;
+    overflow: hidden;
+}
+.element-time{
+    text-align: right;
+    padding-right: 30px;
+}
+
+span.active-icon{
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  background-color:#2F6F20;
+  display:inline-block;
+}
+
+span.inactive-icon{
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  background-color:#F09D3B;
+  display:inline-block;
+}
+
+span.no-icon{
+  height:10px;
+  width:10px;
+  display:inline-block;
+}
+
+#chat-status{
+}
+
+#chat-status img{
+    width: 30px;
+}
+
+#chat-bar {
+    margin-top: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#chat-nav-buttons {
+    display: flex;
+}
+
+#chat-nav-buttons #left-button .btn-primary {
+    background: #F1F1F1;
+    border-color: #D0D0D0;
+    color: #707070;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 30px;
+}
+
+#chat-nav-buttons #right-button .btn-primary {
+    background: #F1F1F1;
+    border-color: #D0D0D0;
+    color: #707070;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: -1px;
+    height: 30px;
+}
+#chat-nav-buttons #left-button .btn-primary:hover {
+    background: white;
+}
+
+#chat-nav-buttons #right-button .btn-primary:hover {
+    background: white;
+}
+
+#chat-search{
+    width: 100%;
+    padding: 0 10px;
+}
+
+#chat-search input[type=text] {
+    width: 100%;
+}
+
+#contacts {
+    margin: 0 10px;
+}
+
+.contact {
+    padding: 2px 0;
+}
+
+.contact:hover {
+    background: #F1F1F1;
+    cursor: pointer;
+}

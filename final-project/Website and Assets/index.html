@@ -1,0 +1,82 @@
+<!DOCTYLE html>
+
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<link rel="stylesheet" href="style.css">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="script.js"></script>
+
+<meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+    <div id="recipes">
+        <div class="introtext">
+            Let's Cook a Steak
+        </div>
+<!--
+        <div class="recipebox">
+            <div class="text">recipe 1</div>
+            <div class="overlay" id="recipe1overlay"></div>
+            <div class="recipe" id="recipe1"></div>
+        </div>
+-->
+        <div class="recipebox" id="Steak">
+            <div class="text">Begin</div>
+            <div class="overlay" id="recipe2overlay"></div>
+            <div class="recipe" id="recipe2"></div>
+        </div>
+<!--
+        <div class="recipebox">
+            <div class="text">recipe 3</div>
+            <div class="overlay" id="recipe3overlay"></div>
+            <div class="recipe" id="recipe3"></div>
+        </div>
+-->
+    </div>
+    <div class="col-md-2" id="sidebar" style="display:none;">
+        Drag and Drop Items Here<button id="cleartechs" type="button" class="btn btn-info" style=" margin: 2%;">Clear Selection</button>
+        <div id="drop-space">
+        </div>
+        <button id="techs" type="button" class="btn btn-info" style="width:80%; margin: 2% 10%;">Techniques Selection</button>
+        <button id="go" type="button" class="btn btn-primary" style="width:80%; margin: 2% 10%;">Watch Videos</button>
+        <button id="ready" type="button" class="btn btn-success" style="width:80%; margin: 2% 10%;">Follow the Recipe</button>
+    </div>
+    <div class="col-md-10" id="techniques" style="display:none;">
+        Techniques to Master<button id="transtechs" type="button" class="btn btn-info" style=" margin: 2%;">Transfer All Skills</button>
+        <div id="techniqueslist">
+        techniques
+        </div>
+    </div>
+    <div class="col-md-10" id="video-wrapper" style="display:none">
+        <div id="video">
+            Select a video from the sidebar.
+        </div>
+        <div id="video-controls">
+            <button type="button" id="rewind" class="btn btn-default"><span class="glyphicon glyphicon-step-backward"></span></button>
+            <button type="button" id="turtle" class="btn btn-default">&#128034;</button>
+            <button type="button" id="play" class="btn btn-default"><span class="glyphicon glyphicon-pause"></span></button>
+            <button type="button" id="rabbit" class="btn btn-default">&#128048;</button>
+            <button type="button" id="ff" class="btn btn-default"><span class="glyphicon glyphicon-step-forward"></span></button>
+        </div>
+        <div id="video-control-explanation">
+            <div class="explain">Rewind 10s</div>
+            <div class="explain">Hover to Slow</div>
+            <div class="explain">Play/Pause</div>
+            <div class="explain">Hover to Speed</div>
+            <div class="explain">Forward 10s</div>
+        </div>
+    </div>
+    <div class="col-md-10" id="recipedisplay" style="display: none">
+        Instructions:
+        <div id="recipesteps"></div>
+    </div>
+        
+</body>
+</html>

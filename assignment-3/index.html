@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<link rel="stylesheet" href="style.css">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="render.js"></script>
+
+<meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+    
+<div class="col-md-12 banner">
+    <h1>Columbia Paper Infinity</h1>
+</div>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item active">
+    <a class="nav-link" data-toggle="tab" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#log-sale">Log Sale</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#party-plan">Party Planning Committee</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h3>Columbia Paper! The biggest in New York. </h3>
+    <h4>Remember to log your sales on the website!</h4>
+  </div>
+  <div id="log-sale" class="tab-pane fade">
+    <div id="log-sale-wrapper">
+        <div id="log-sale-padding">
+            <!--<h3>Log Sale</h3>-->
+            <input type="text" class="enter" placeholder="client" id="client-field"/>
+            <input type="text" class="enter" placeholder="# reams" id="reams-field"/>
+            <input type="button" class="enter" value="submit" id="submit-button" />
+            <table id="sales-table">
+            </table>
+        </div>
+    </div>
+  </div>
+    <div id="party-plan" class="tab-pane fade">
+        <div class="party-plan-wrapper">
+        <div style="width: 67vw; margin: 0 auto;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="dropspace" id="non-PPC-dropspace">Non-PPC</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="dropspace" id="PPC-dropspace">PPC</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class = "employee-list" id="non-PPC-list"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class = "employee-list" id="PPC-list"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+</html>

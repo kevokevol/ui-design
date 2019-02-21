@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {font-family: 'Arial', sans-serif}
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="status">
+    Loading...
+</div>
+<div class="row" id="navbar">
+    <div class="col-md-2" id="google-logo">
+        <img src="https://www.google.com/a/columbia.edu/images/logo.gif?alpha=1&service=google_white" alt="logo">
+    </div>
+    <div class="col-md-8" id="google-search">
+        <input type="text">
+        <input type="submit" value="&#x1F50D;">
+        <div id="name">
+            Jeffrey
+        </div>
+    </div>
+    <div class="col-md-2" id="google-icons">
+        <div><span class="glyphicon glyphicon-th" style="cursor:pointer"></span></div>
+        <div><span class="glyphicon glyphicon-bell" style="cursor:pointer"></span></div>
+        <div><img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Smiley_head_happy_square.svg"></div>
+    </div>
+</div>
+<div class="row" id="menu-bar">
+    <div class="col-md-2" id="menu-dropdown">
+        Mail &#9662;
+    </div>
+    <div class="col-md-8" id="menu-middle">
+        <div id="menu-buttons">
+            <button type="button" class="btn btn-primary">&#9744; &#9662;</button>
+            <button type="button" class="btn btn-primary">&#8635;</button>
+            <button type="button" class="btn btn-primary">More &#9662;</button>
+        </div>
+        <div id="menu-page"><b>1</b>-<b>14</b> of <b>14</b></div>
+    </div>
+    <div class="col-md-2" id="menu-navigation">
+        <div id="menu-nav-buttons">
+            <div id="left-button"><button type="button" class="btn btn-primary">&lt;</button></div>
+            <div id="right-button"><button type="button" class="btn btn-primary">&gt;</button></div>
+        </div>
+        <div id="menu-settings-button">
+            <button type="button" class="btn btn-primary">&#9881; &#9662;</button>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2" id="content-nav">
+        <button type="button" class="btn btn-primary">Compose</button>
+        <div id="content-nav-list">
+            <div class="active-nav-button"><div class="nav-button"><b>Inbox (2)</b></div></div>
+            <div class="inactive-nav-button"><div class="nav-button">Sent Mail</div></div>
+            <div class="inactive-nav-button"><div class="nav-button"><b>Drafts (54)</b></div></div>
+            <div class="inactive-nav-button"><div class="nav-button">Need to Read</div></div>
+            <div class="inactive-nav-button"><div class="nav-button">Technology Coach</div></div>
+            <div class="inactive-nav-button"><div class="nav-button">More &#9662;</div></div>
+        </div>
+    </div>
+    <div class="col-md-8" id="main-content">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Primary</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Promotions</a></li>
+            <li><a href="#">Updates</a></li>
+        </ul>
+        <div id = "mailbox-elements">
+            <div class = "row mailbox-element unread">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; &nbsp;<span class="glyphicon glyphicon-tag" style="color:#F9D373"></span>&nbsp; Baldwin, <b>BPS</b> (2)</div>
+                <div class = "col-md-6 element-content"><b>Bloglovin'</b><span style="color:gray"> - Not that I know of. Sometimes blocked sites come in on a hug</span></div>
+                <div class = "col-md-2 element-time"><b>11:08 am</b></div>
+            </div>
+            <div class = "row mailbox-element unread">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; &nbsp;<span class="glyphicon glyphicon-tag" style="color:#F9D373"></span>&nbsp; <b>Feldmann, Ann</b></div>
+                <div class = "col-md-6 element-content"><b>Fwd: 21st Century Classroom Visit?</b> <span style="color:gray"> - Ann Feldmann District Technology</span></div>
+                <div class = "col-md-2 element-time"><b>10:18 am</b></div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; <span style="color:#F9D373">&#9733; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; me, Lambert (2)</div>
+                <div class = "col-md-6 element-content">8th Period<span style="color:gray"> - Hey Jeff, I am planning on doing the Mystery Hangout lession</span></div>
+                <div class = "col-md-2 element-time">8:05 am</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; <span style="color:#F9D373">&#9733; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; me</div>
+                <div class = "col-md-6 element-content">(no subject)<span style="color:gray"> - --Jeffrey Bernardt District Technology Specialist Bellevue Public</span></div>
+                <div class = "col-md-2 element-time"><span style="float:left">&#128206;</span> Jan 12</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; <span style="color:#F9D373">&#9733; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Me, Braasch, Klamm (3)</div>
+                <div class = "col-md-6 element-content">Visitation and Observation Request<span style="color:gray"> - Good morning! The second semester is</span></div>
+                <div class = "col-md-2 element-time">Jan 12</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; <span style="color:#F9D373">&#9733; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Me, Cox (2)</div>
+                <div class = "col-md-6 element-content">Bri Cox - Coaching Doc - Invitation to edit<span style="color:gray"> - Jeff, I was finally able to read</span></div>
+                <div class = "col-md-2 element-time">Jan 12</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; <span style="color:#F9D373">&#9733; </span>&nbsp;<span class="glyphicon glyphicon-tag" style="color:#F9D373"></span>&nbsp; Tripple, Todd</div>
+                <div class = "col-md-6 element-content">3D Printer<span style="color:gray"> - Hello Amy, I received some info from a 3D printing expo</span></div>
+                <div class = "col-md-2 element-time">Jan 11</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; &nbsp;<span class="glyphicon glyphicon-tag" style="color:#D1D1D1"></span>&nbsp; donotreply</div>
+                <div class = "col-md-6 element-content">Education Preview Build Notice<span style="color:gray"> - &#63743; Appleseed Build Notice Education Pre</span></div>
+                <div class = "col-md-2 element-time">Jan 11</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; <span style="color:#F9D373">&#9733; </span>&nbsp;<span class="glyphicon glyphicon-tag" style="color:#F9D373"></span>&nbsp; Ann Feldmann</div>
+                <div class = "col-md-6 element-content">Fwd: [New Post] What "Innovative Leadership" Looks Like<span style="color:gray"> - A good read! -</span></div>
+                <div class = "col-md-2 element-time">Jan 11</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; <span style="color:#F9D373">&#9733; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; me, Campbell (7)</div>
+                <div class = "col-md-6 element-content">Khan Academy Issues<span style="color:gray"> - It kept repeating that "changed password 7 months</span></div>
+                <div class = "col-md-2 element-time">Jan 8</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; &nbsp;<span class="glyphicon glyphicon-tag" style="color:#F9D373"></span>&nbsp; Toelle, me, (3)</div>
+                <div class = "col-md-6 element-content">6 Word Stories<span style="color:gray"> - Hey Jeff! We just returned from lunch, but still have quite</span></div>
+                <div class = "col-md-2 element-time">Jan 8</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; <span style="color:#F9D373">&#9733; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; me, Evon (4)</div>
+                <div class = "col-md-6 element-content">Request to Visit on Thursday AM<span style="color:gray"> - Hey Jeff! We just returned from lunch, but still have quite</span></div>
+                <div class = "col-md-2 element-time">Jan 6</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Jeffrey Bernadt</div>
+                <div class = "col-md-6 element-content">Shared from Twitter: What teachers need to know about multicultural education<span style="color:gray"></span></div>
+                <div class = "col-md-2 element-time">12/23/15</div>
+            </div>
+            <div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Jeffrey Bernadt</div>
+                <div class = "col-md-6 element-content">Shared from Twitter: What teachers need to know about multicultural education<span style="color:gray"></span></div>
+                <div class = "col-md-2 element-time">12/23/15</div>
+            </div><div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Jeffrey Bernadt</div>
+                <div class = "col-md-6 element-content">Shared from Twitter: What teachers need to know about multicultural education<span style="color:gray"></span></div>
+                <div class = "col-md-2 element-time">12/23/15</div>
+            </div><div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Jeffrey Bernadt</div>
+                <div class = "col-md-6 element-content">Shared from Twitter: What teachers need to know about multicultural education<span style="color:gray"></span></div>
+                <div class = "col-md-2 element-time">12/23/15</div>
+            </div><div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Jeffrey Bernadt</div>
+                <div class = "col-md-6 element-content">Shared from Twitter: What teachers need to know about multicultural education<span style="color:gray"></span></div>
+                <div class = "col-md-2 element-time">12/23/15</div>
+            </div><div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Jeffrey Bernadt</div>
+                <div class = "col-md-6 element-content">Shared from Twitter: What teachers need to know about multicultural education<span style="color:gray"></span></div>
+                <div class = "col-md-2 element-time">12/23/15</div>
+            </div><div class = "row mailbox-element read">
+                <div class = "col-md-4 element-sender">&#9744; &#9734; </span>&nbsp;<span class="glyphicon glyphicon-tags" style="color:#F9D373"></span>&nbsp; Jeffrey Bernadt</div>
+                <div class = "col-md-6 element-content">Shared from Twitter: What teachers need to know about multicultural education<span style="color:gray"></span></div>
+                <div class = "col-md-2 element-time">12/23/15</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2" id="chat-contacts">
+        <div class="row" id="chat-bar">
+            <div id="chat-status">
+                <span style="cursor: pointer">
+                    <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/5/50/Smiley_head_happy_square.svg">
+                </span>
+                <span class="active-icon"></span>&nbsp;<span style="cursor: pointer">&#9662;</span>
+            </div>
+            <div id="chat-nav-buttons">
+                <div id="left-button"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-earphone"></span></button></div>
+                <div id="right-button"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-facetime-video"></span></button></div>
+            </div>
+        </div>
+        <div class="row" id="chat-search">
+            <input type="text" placeholder="&nbsp;Search people...">
+        </div>
+        <div id="contacts">
+            <div class="row contact">
+                <span class="active-icon"></span> Jed Givens
+            </div>
+            <div class="row contact">
+                <span class="inactive-icon"></span> Ann Feldmann
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Cadwallader, Julie
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Christopher Kessell
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Courtney Saffold
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Jeanette Carlson
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Johnson, Stephanie
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Kelly Bernardt
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Loomis, Phillip
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Robert Mason
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Shannon Grier
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Todd Tripple
+            </div>
+            <div class="row contact">
+                <span class="no-icon"></span> Toledo, Julian (Delor...
+            </div>
+        </div>
+    </div>
+</div>
+</body>

@@ -1,0 +1,115 @@
+.container-fluid {
+    background: black;
+}
+
+.title-text {
+    display: flex;
+    height: 140px;
+    font-family: "Impact";
+    font-size: 80px;
+    align-items: flex-end;
+    justify-content: center;
+    background: #172535;
+    color: white;
+    text-transform: uppercase;
+}
+
+.subtext {
+    display: flex;
+    height: 100px;
+    font-family: "Impact";
+    font-size: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    background: #172535;
+    color: white;
+}
+
+.subsubtext {
+    display: flex;
+    height: 40px;
+    font-family: "Impact";
+    font-size: 15px;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+.display-item {
+    display: flex;
+    align-content: center;
+    width: 20vw;
+    height: 20vw;
+    margin: 20px;
+    padding: 2px;
+}
+
+.display-item img {
+    object-fit: cover;
+}
+
+.price-tag {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 2;
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    font-family: "Impact";
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.hover-over {
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+    background: black;
+    opacity: 0;
+    color: white;
+    text-align: center;
+    margin: -1px;
+    z-index: 1;
+    padding-top: 5vw;
+}
+#kettle:hover {
+    opacity: 0.8;
+}
+#lampshade:hover {
+    opacity: 0.8;
+}
+#sofa:hover {
+    opacity: 0.8;
+}
+#ottoman:hover {
+    opacity: 0.8;
+}
+#bobross:hover {
+    opacity: 0.8;
+}
+#speaker:hover {
+    opacity: 0.8;
+}
+#chairs:hover {
+    opacity: 0.8;
+}
+#bookcase:hover {
+    opacity: 0.8;
+}
+#table:hover {
+    opacity: 0.8;
+}
+#lamp:hover {
+    opacity: 0.8;
+}
